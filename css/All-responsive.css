@@ -1,0 +1,1039 @@
+/*******************************todo laptop device ************** */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+	/* header section */
+	.topbarmenu {
+		width: 100vw;
+	}
+	.email {
+		width: 58%;
+	}
+	.menu {
+		width: 82%;
+		max-width: 1200px;
+	}
+	.sliderContent h1 {
+		font-size: 40px;
+		margin-top: 50px;
+		line-height: 55px;
+	}
+
+	.sliderContent p {
+		font-weight: 500;
+		line-height: 28px;
+		width: 389px;
+		font-size: 16px;
+	}
+	button.sliderBtn {
+		font-size: 16px;
+		width: 150px;
+	}
+	/* service section  */
+
+	.sboxwrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.singleBox {
+		width: 40%;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	/* team section  */
+	.teamContents {
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+	.teamImg {
+		width: 40%;
+	}
+	.teamImg {
+		width: 40%;
+		float: left;
+	}
+	.teamDetalis {
+		width: 50%;
+	}
+	.tittleDesc p {
+		text-align: justify;
+	}
+	/* counter section */
+	.counterWrapper,
+	.blogWrapper {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.counterBox,
+	.singlePost {
+		width: 21%;
+	}
+	.tittleDesc h2 {
+		font-size: 30px;
+	}
+	.blogInfo h2 {
+		font-size: 35px;
+	}
+
+	.tittleDesc p {
+		font-size: 14px;
+	}
+	.counterBox h2 {
+		font-size: 38px;
+	}
+	.counterBox h4 {
+		font-size: 18px;
+	}
+	/* pricing section */
+	.tablewrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 99%;
+	}
+	.singleTable {
+		display: flex;
+		flex-flow: column wrap;
+		flex-basis: 24%;
+	}
+	button.tableBtn {
+		width: fit-content;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	/* idea section */
+	.ideasleftIMg {
+		width: 40.1%;
+	}
+	.ideasrightContent {
+		width: 56.4%;
+	}
+	.ideasTitle {
+		padding-left: 45px;
+	}
+
+	.ideasTitle h1 {
+		font-size: 25px;
+	}
+	.ideasTitle h1 {
+		font-size: 25px;
+	}
+	.ideasTitle p {
+		font-size: 14px;
+	}
+	.ideasBox {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 91%;
+		flex-wrap: wrap;
+	}
+	.ideasSinglebox {
+		flex-grow: 1;
+		width: 35%;
+		margin: 0px 0px 50px 0px;
+	}
+	.ideasBox {
+		padding-left: 50px;
+	}
+	.ideasIcon {
+		font-size: 35px;
+	}
+	.ideasDesc h2 {
+		width: 70%;
+		font-size: 18px;
+	}
+
+	.ideasDesc p {
+		font-size: 15px;
+	}
+	/* our team section */
+	.teamPearson {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		width: 98%;
+		gap: 25px;
+	}
+	.singlePearson {
+		flex-basis: 21%;
+		margin-left: 0;
+	}
+	.pearsonInfo h2 {
+		font-size: 18px;
+	}
+	.ourteamBtn button {
+		font-size: 13px;
+		width: fit-content;
+	}
+	/* project section */
+	.projectWrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		column-gap: 25px;
+	}
+	.singleProject {
+		flex-basis: 30%;
+		margin-right: 0;
+	}
+	.projectTitle h3 {
+		width: 90%;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.projectInfo {
+		width: 90%;
+	}
+	/* latest news */
+	.newsWrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		gap: 25px;
+		width: 94%;
+	}
+	.singleNews {
+		flex-basis: 30%;
+		flex-grow: 1;
+		margin: 0;
+	}
+	.newsComent span:after {
+		bottom: 200px;
+	}
+	.newsTittle p {
+		font-size: 14px;
+	}
+	/* subscribe section */
+	section#subscribe {
+		left: -5px;
+	}
+	.subsBoxWrapper {
+		width: 99.1%;
+		padding: 20px 0 0 20px;
+		display: flex;
+		justify-content: center;
+		gap: 45px;
+	}
+	/* footer section */
+	.fboxWrapper {
+		overflow: hidden;
+		margin-bottom: 20px;
+		padding: 0px 5px;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		gap: 45px;
+	}
+	.fBox:nth-child(1),
+	.fBox:nth-child(2),
+	.fBox:nth-child(3),
+	.fBox:nth-child(4) {
+		margin-right: 0;
+	}
+	.fBox {
+		margin-right: 0;
+		flex-basis: 25%;
+		flex-grow: 1;
+	}
+	.fBox p {
+		font-size: 14px;
+	}
+	.icon {
+		position: relative;
+		left: -32px;
+		top: 23px;
+	}
+	.fBox:nth-child(4) {
+		display: none;
+	}
+}
+
+/*******************************todo tablet device ************** */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	section {
+		padding: 40px 0px;
+	}
+	/* topbar responsive code */
+
+	.container {
+		max-width: 720px;
+		padding: 0 15px;
+	}
+	.topbarmenu {
+		display: none;
+	}
+	.header-serchbox {
+		display: block;
+	}
+
+	.logo {
+		margin-left: 15%;
+	}
+	.dropdown-menu-icon {
+		display: block;
+	}
+
+	.menu {
+		width: 100%;
+		display: none;
+	}
+	.mainMenuItem {
+		width: 99.7% !important;
+		float: none;
+		z-index: 1;
+		position: absolute;
+		left: 1px;
+		top: 70px;
+	}
+
+	ul.mainMenuItem li {
+		float: none;
+		margin-top: -2px;
+	}
+	ul.mainMenuItem li a {
+		color: #d5d5d5 !important;
+		background: #222222 !important;
+		padding: 12px 20px;
+		border-bottom: 1px solid #8a88888c;
+		padding-right: 0px;
+		margin-top: 2px;
+	}
+
+	ul.mainMenuItem li:nth-child(6) a {
+		border-bottom: none;
+	}
+
+	ul.mainMenuItem li a i {
+		float: right;
+		border: 1px solid #525252c2;
+		padding: 8px 12px;
+		color: #fff;
+		margin-right: 10px;
+		margin-top: -5px;
+	}
+	ul.mainMenuItem > li:last-child {
+		display: none;
+	}
+
+	ul.submenu {
+		width: 100%;
+		transform: scale(1);
+		background: none;
+		padding: 0;
+		border: none;
+		position: relative;
+		border: 0;
+		margin-left: 0;
+		display: none;
+	}
+
+	ul.submenu li a {
+		color: #fff !important;
+	}
+	ul.submenu li:hover a:before {
+		width: 0px;
+	}
+	ul.submenu li:hover a {
+		margin: 0;
+	}
+	.serchbox-content {
+		top: 42px;
+	}
+	a#scroll-top {
+		bottom: 10%;
+	}
+	/* homeslider responsive code */
+	section#homeSlider {
+		margin-top: -10px;
+		margin-bottom: -127px;
+	}
+
+	.slide1 {
+		background-size: 130%;
+		background-position: -110px center;
+	}
+	.slide2 {
+		background-size: 130%;
+		background-position: center;
+	}
+	.sliderContent {
+		padding-left: 25px;
+	}
+	.sliderContent h1 {
+		font-size: 35px;
+		margin-bottom: 20px;
+		line-height: 55px;
+		margin-top: 105px;
+		font-weight: 700;
+	}
+	.slide2 .sliderContent h1 {
+		font-size: 35px;
+		width: 403px;
+		font-weight: 500;
+	}
+
+	.sliderContent p {
+		font-weight: 500;
+		line-height: 27px;
+		width: 349px;
+		font-size: 18px;
+	}
+	button.sliderBtn {
+		font-size: 18px;
+		font-weight: 800;
+		margin-bottom: 115px;
+		width: 180px;
+	}
+
+	.slide1,
+	.slide2 {
+		top: -61px !important;
+	}
+
+	.slick-dots {
+		bottom: 32% !important;
+		left: 3% !important;
+	}
+	/* services responsive code*/
+
+	section#services {
+		padding-top: 45px;
+	}
+	.singleBox {
+		width: 43%;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+	.singleBox:nth-child(2) {
+		margin-left: 30px;
+	}
+	.singleBox:nth-child(4) {
+		margin-left: 30px;
+	}
+	/* team responsive code*/
+	.teamImg {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.teamDetalis {
+		float: left;
+		padding: 0px;
+	}
+	/* counterbox responsive code*/
+	.counterBox {
+		width: 22%;
+	}
+	.counterBox:last-child {
+		margin-right: 0px;
+	}
+	.counterBox h2 {
+		font-size: 50px;
+	}
+	/* blogpost responsive code*/
+	.blogInfo h2 {
+		font-size: 35px;
+	}
+	.blogInfo p {
+		width: 700px;
+	}
+	.singlePost {
+		width: 47%;
+		margin-bottom: 30px;
+	}
+	.singlePost:nth-child(1),
+	.singlePost:nth-child(3),
+	.singlePearson:nth-child(1),
+	.singlePearson:nth-child(3) {
+		margin-left: 0px;
+	}
+	/* pricing responsive code*/
+	.singleTable {
+		width: 23%;
+	}
+	.singleTable:nth-child(1) {
+		margin-left: 0px;
+	}
+	/* idea responsive code*/
+	.ideasleftIMg {
+		display: none;
+	}
+	.ideasrightContent {
+		width: 100%;
+		float: none;
+	}
+	.ideasSinglebox {
+		width: 32%;
+		margin-left: 19px;
+		margin-right: 90px;
+	}
+	.ideasBox {
+		padding: 0px 20px;
+	}
+	.ideasTitle {
+		padding: 0px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.ideasDesc span {
+		text-align: left;
+		margin-left: 51px;
+	}
+
+	/* ourteam responsive code*/
+	.singlePearson {
+		width: 47%;
+		margin-bottom: 30px;
+	}
+	.ourteamBtn {
+		margin-top: 10px;
+	}
+	/* project responsive code*/
+	.projectInfo {
+		padding-left: 15px;
+	}
+	.projectWrapper {
+		column-gap: 30px;
+	}
+	.singleProject {
+		width: 100%;
+	}
+	.projectTitle h3 {
+		font-size: 18px;
+		width: 223px;
+	}
+	.projectInfo {
+		padding: 0px 10px;
+	}
+	/* latest news responsive code*/
+	.newsWrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		gap: 30px;
+	}
+	.singleNews {
+		flex-basis: 46%;
+		margin: 0;
+	}
+	.singleNews:last-child {
+		display: none;
+	}
+	.newsImg a {
+		height: 153px;
+	}
+	.newsComent span:after {
+		bottom: 192px;
+		left: 123px;
+	}
+	.singleNews:last-child .newsInfo .newsComent span:after {
+		bottom: 245px;
+	}
+	/* subscribe responsive code*/
+	.subsBoxWrapper {
+		padding: 19px 0px 10px 20px;
+	}
+	.subsboxSingle {
+		width: 30%;
+		margin-right: 25px;
+	}
+	.subsInput input {
+		width: 33%;
+		border-radius: 50px;
+		font-size: 12px;
+	}
+	.subsInput button {
+		padding: 13px 15px;
+		top: -44px;
+		left: 86px;
+	}
+	.subsIcon a i {
+		top: 42%;
+	}
+	.subsIcon a:last-child {
+		display: none;
+	}
+	.fboxWrapper {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row wrap;
+		margin: 0;
+	}
+	.fBox {
+		flex-basis: 42%;
+		margin-bottom: 30px;
+	}
+	.fBox:nth-child(1) {
+		margin-right: 0px;
+	}
+	.fBox p {
+		font-size: 14px;
+	}
+	.icon {
+		position: relative;
+		left: -30px;
+		top: 20px;
+	}
+	.copywriteText {
+		float: left;
+		font-size: 14px;
+	}
+	.copywriteMenu {
+		float: right;
+	}
+	header#topbar {
+		height: 77px;
+	}
+
+	.sticky-wrapper.is-sticky .serchbox-content {
+		top: 50px;
+	}
+	.sticky-wrapper.is-sticky .mainMenuItem {
+		top: 78px;
+	}
+}
+
+/*******************************todo mobile device ************** */
+
+@media screen and (max-width: 576px) {
+	/*!---------------------------------------topbar--------------------------------------*/
+	/* header section */
+	.container {
+		max-width: 94%;
+	}
+	.topbarmenu {
+		display: none;
+	}
+	#mainPrimary {
+		margin: -15px 0px;
+	}
+	.sticky-wrapper.is-sticky .primarymenu {
+		margin: -20px 0px;
+	}
+	.sticky-wrapper.is-sticky #mainPrimary {
+		width: 100% !important;
+	}
+	.sticky-wrapper.is-sticky .dropdown-menu-icon {
+		position: relative;
+		right: 0px;
+	}
+
+	.header-serchbox {
+		display: block;
+		margin-top: 35px;
+	}
+	.serchbox-content {
+		top: 28px;
+	}
+	.sticky-wrapper.is-sticky .serchbox-content {
+		top: 55px;
+	}
+
+	.logo {
+		margin-left: 15%;
+		margin-top: 20px;
+	}
+	.dropdown-menu-icon {
+		display: block;
+		margin-top: 22px;
+		margin-right: 5px;
+	}
+
+	.menu {
+		width: 100%;
+		display: none;
+	}
+	.mainMenuItem {
+		width: 100% !important;
+		float: none;
+		z-index: 1;
+		position: absolute;
+		left: 1px;
+		top: 56px;
+	}
+	.sticky-wrapper.is-sticky .mainMenuItem {
+		top: 83px;
+	}
+
+	ul.mainMenuItem li {
+		float: none;
+		margin-top: -2px;
+	}
+	ul.mainMenuItem li a {
+		color: #d5d5d5 !important;
+		background: #222222 !important;
+		padding: 12px 20px;
+		border-bottom: 1px solid #8a88888c;
+		padding-right: 0px;
+		margin-top: 2px;
+	}
+
+	ul.mainMenuItem li:nth-child(6) a {
+		border-bottom: none;
+	}
+
+	ul.mainMenuItem li a i {
+		float: right;
+		border: 1px solid #525252c2;
+		padding: 8px 12px;
+		color: #fff;
+		margin-right: 10px;
+		margin-top: -5px;
+	}
+	ul.mainMenuItem > li:last-child {
+		display: none;
+	}
+
+	ul.submenu {
+		width: 100%;
+		transform: scale(1);
+		background: none;
+		padding: 0;
+		border: none;
+		position: relative;
+		border: 0;
+		margin-left: 0;
+		display: none;
+	}
+
+	ul.submenu li a {
+		color: #fff !important;
+	}
+	ul.submenu li:hover a:before {
+		width: 0px;
+	}
+	ul.submenu li:hover a {
+		margin: 0;
+	}
+
+	/* !----------------------------------------------------------------homeslider--------------------------------------*/
+
+	section#homeSlider {
+		margin-top: -12px;
+	}
+	.slide1,
+	.slide2 {
+		background-size: contain;
+	}
+	.sliderContent p {
+		display: none;
+	}
+	.sliderContent h1 {
+		font-size: 25px;
+		font-weight: 400;
+		margin-bottom: 20px;
+		margin-top: 55px;
+	}
+
+	button.sliderBtn {
+		padding: 9px 3px;
+		font-size: 15px;
+		font-weight: 900;
+		width: 140px;
+	}
+	.slick-dots {
+		bottom: 85px;
+		left: 5%;
+	}
+
+	/* !----------------------------------------------------------------services--------------------------------------*/
+	section {
+		padding: 30px 0px;
+	}
+	section#services {
+		margin-top: -50px;
+		padding-top: 55px;
+	}
+	.sboxwrapper {
+		width: 100%;
+	}
+	.singleBox {
+		width: 100%;
+		margin-bottom: 25px;
+		margin-right: 0;
+		padding: 0;
+	}
+	.sboxTittle {
+		width: 100%;
+	}
+	.sboxLink a {
+		margin-left: -5px;
+	}
+	.sboxDesc p {
+		margin-left: 4px;
+	}
+	/* !----------------------------------------------------------------team--------------------------------------*/
+	.teamImg {
+		width: 100%;
+	}
+	.teamDetalis {
+		width: 100%;
+	}
+	.tittleDesc {
+		padding-top: 30px;
+	}
+	.tittleDesc p {
+		font-size: 14px;
+		text-align: justify;
+	}
+	.tittleDesc h2 {
+		font-size: 25px;
+	}
+
+	ul.teamfsRight {
+		padding-right: 115px;
+	}
+	ul.teamfsRight a,
+	ul.teamfsLeft a {
+		font-weight: 600;
+	}
+
+	/* !----------------------------------------------------------------counter--------------------------------------*/
+
+	#counter {
+		display: none;
+	}
+
+	/* !----------------------------------------------------------------blogpost--------------------------------------*/
+	.blogInfo h2 {
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.singleImg img {
+		width: 100%;
+	}
+	.singlePost,
+	.singleTable,
+	.singlePearson {
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	/* !----------------------------------------------------------------ideas--------------------------------------*/
+	.ideasleftIMg {
+		display: none;
+	}
+	.ideasrightContent {
+		width: 100%;
+	}
+	.ideasBox {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row wrap;
+	}
+	.ideasSinglebox {
+		width: 50%;
+		margin: 0px 0px 50px -61px;
+	}
+	.ideasSinglebox:nth-child(even) {
+		margin-left: -60px;
+	}
+	.ideasTitle h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+	.ideasTitle p {
+		line-height: 22px;
+		text-align: center;
+		width: 100%;
+		font-size: 14px;
+	}
+	.ourteamBtn {
+		margin-top: 50px;
+	}
+	.projectWrapper {
+		column-count: 1;
+	}
+	.singleProject,
+	.singleNews,
+	.subsboxSingle {
+		width: 100%;
+	}
+	.projectTitle {
+		width: 400px;
+		padding-bottom: 20px;
+	}
+	.blogInfo p {
+		width: 100%;
+		font-size: 17px;
+	}
+	.projectInfo {
+		width: 506px;
+	}
+
+	.newsComent span:after {
+		bottom: 174px;
+	}
+	.subsBoxWrapper {
+		padding: 20px 0px 0px 35px;
+	}
+	.subsInput button {
+		left: 365px;
+	}
+	.subsIcon a i {
+		top: 84%;
+	}
+	.subsIcon {
+		padding-bottom: 20px;
+	}
+	.subsboxSingle h3 {
+		margin-top: 30px;
+	}
+	.subsInput {
+		margin-bottom: -50px;
+	}
+	section#subscribe {
+		bottom: -130px;
+	}
+
+	.fBox {
+		margin-bottom: 25px;
+	}
+	.icon {
+		left: 20px;
+	}
+	.fBox span {
+		margin-left: 35px;
+	}
+	.frPostMeta span:first-child {
+		margin-left: 0px;
+	}
+	.frPostTittle span {
+		margin-left: 0px;
+	}
+	.copywriteMenu,
+	.copywriteText {
+		float: none;
+		margin-bottom: 25px;
+	}
+}
+
+/*******************************todo  small mobile device ************** */
+@media screen and (max-width: 375px) {
+	.sliderContent {
+		width: 100%;
+		text-align: center;
+	}
+	.sliderContent h1 {
+		font-size: 16px;
+		margin-top: -75px;
+		position: relative;
+		top: 70px;
+		left: 43px;
+	}
+	button.sliderBtn {
+		position: relative;
+		padding: 10px;
+		font-size: 15px;
+		font-weight: 600;
+		width: fit-content;
+		right: -6px;
+		top: 47px;
+	}
+
+	.slick-dots li {
+		position: relative;
+		top: 55px;
+	}
+	.slick-dots {
+		left: 2%;
+	}
+	.header-serchbox {
+		display: none;
+	}
+	.logo {
+		margin-left: 0;
+	}
+
+	.dropdown-menu-icon i {
+		font-size: 18px;
+	}
+
+	ul.teamfsRight {
+		padding-right: 185px;
+	}
+
+	.ideasTitle {
+		padding: 0px 5px 20px 5px;
+	}
+	.ideasBox {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-flow: column wrap;
+	}
+	.ideasSinglebox {
+		width: 100%;
+	}
+
+	.projectInfo {
+		padding: 0;
+		padding-left: 5px;
+	}
+	.projectTitle h3 {
+		font-size: 16px;
+	}
+	a#scroll-top {
+		right: 8%;
+	}
+	.newsComent span:after {
+		bottom: 193px;
+	}
+
+	.copywriteText {
+		font-size: 11px;
+	}
+}
+
+/*******************************todo  extra small mobile device ************** */
+@media screen and (max-width: 320px) {
+	.sliderContent h1 {
+		font-size: 16px;
+		margin-top: -75px;
+		position: relative;
+		top: 70px;
+		left: 14px;
+	}
+	button.sliderBtn {
+		position: relative;
+		padding: 10px;
+		font-size: 15px;
+		font-weight: 600;
+		width: fit-content;
+		right: -6px;
+		top: 47px;
+	}
+
+	.slick-dots li {
+		position: relative;
+		top: -5px;
+	}
+	.slick-dots {
+		left: 2%;
+	}
+
+	ul.teamfsRight {
+		padding-right: 133px;
+	}
+	.newsComent span:after {
+		bottom: 209px;
+	}
+	section#services {
+		margin-top: -110px;
+		padding-top: 60px;
+	}
+}
