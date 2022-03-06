@@ -1785,11 +1785,11 @@ ul.tabMenuItem li:hover a {
 
 /* loader */
 #loading {
-	background-color: #ff9311;
+	background-color: #fff;
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	z-index: 1;
+	z-index: 99999999;
 	margin-top: 0px;
 	top: 0px;
 }
@@ -1811,7 +1811,7 @@ ul.tabMenuItem li:hover a {
 	position: absolute;
 	height: 10px;
 	width: 50px;
-	background-color: #fff;
+	background-color: #ff5200bf;
 }
 .object:nth-child(2n + 0) {
 	-webkit-animation: animate_right 2s infinite;

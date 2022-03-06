@@ -29,9 +29,12 @@ $(document).ready(function () {
 	$('#scroll-top').click(function () {
 		$('html,body').animate({ scrollTop: 0 }, 3000);
 	});
+});
 
-	// loader with jaquery
-	$(window).on('load', function () {
-		$('#loading').fadeOut(5000);
-	});
+// loader
+var loader = document.getElementById('loading');
+window.addEventListener('load', function () {
+	setTimeout(function () {
+		loader.style.display = 'none';
+	}, 5000);
 });
