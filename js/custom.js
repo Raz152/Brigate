@@ -29,4 +29,9 @@ $(document).ready(function () {
 	$('#scroll-top').click(function () {
 		$('html,body').animate({ scrollTop: 0 }, 3000);
 	});
+
+	// loader with jaquery
+	$(window).on('load', function () {
+		$('#loading').fadeOut(5000);
+	});
 });
