@@ -840,7 +840,7 @@
 		margin: 0px 0px 50px -61px;
 	}
 	.ideasSinglebox:nth-child(even) {
-		margin-left: 0px;
+		margin-left: -60px;
 	}
 	.ideasTitle h1 {
 		font-size: 25px;
