@@ -796,7 +796,7 @@ button.tableBtn:hover {
 }
 
 .ideasSinglebox:nth-child(even) {
-	margin-left: 48px;
+	margin-left: 0px;
 }
 .ideasIcon {
 	width: 50px;
