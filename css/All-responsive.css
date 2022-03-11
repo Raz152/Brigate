@@ -924,6 +924,9 @@
 
 /*******************************todo  small mobile device ************** */
 @media screen and (max-width: 375px) {
+	.container{
+		width: 90%;
+	}
 	.sliderContent {
 		width: 100%;
 		text-align: center;
