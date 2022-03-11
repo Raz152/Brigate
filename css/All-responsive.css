@@ -612,7 +612,7 @@
 	/*!---------------------------------------topbar--------------------------------------*/
 	/* header section */
 	.container {
-		max-width: 94%;
+		max-width: 90%;
 	}
 	.topbarmenu {
 		display: none;
@@ -840,7 +840,7 @@
 		margin: 0px 0px 50px -61px;
 	}
 	.ideasSinglebox:nth-child(even) {
-		margin-left: -60px;
+		margin-left: 0px;
 	}
 	.ideasTitle h1 {
 		font-size: 25px;
